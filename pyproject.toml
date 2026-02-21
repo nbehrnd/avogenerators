@@ -5,7 +5,7 @@ authors =  [
     { name = "Allison Vacanti", email = "allison.vacanti@kitware.com" },
     { name = "Kyle Lutz", email = "kyle.lutz@kitware.com" },
     { name = "Marcus D. Hanwell", email = "marcus.hanwell@kitware.com" },
-    { name = "Geoff Hutchison", email = "geoff.hutchison@gmail.com" },
+    { name = "Geoffrey Hutchison", email = "geoff.hutchison@gmail.com" },
     { name = "Eric Berquist", email = "eric.berquist@gmail.com" },
     { name = "Shiv Upadhyay", email = "shivnupadhyay@gmail.com" },
     { name = "Amanda E. Dumi", email = "amanda.e.dumi@gmail.com" },
@@ -31,7 +31,7 @@ minimum-avogadro-version = "1.103"
 
 [[tool.avogadro.input-generators]]
 identifier = "dalton"
-program-name = "DALTON"
+program-name = "Dalton"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
@@ -80,7 +80,7 @@ highlight-styles = "src/avogenerators/nwchem/syntax.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "orca"
-program-name = "Orca"
+program-name = "ORCA"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
@@ -96,7 +96,7 @@ user-options = "src/avogenerators/psi4/options.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "pyscf"
-program-name = "PYSCF"
+program-name = "PySCF"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
