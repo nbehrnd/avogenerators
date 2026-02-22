@@ -50,7 +50,7 @@ def main():
 
     if args.debug:
         output["files"].append(
-            {"filename": "debug_info", "contents": args.input}
+            {"filename": "debug_info", "contents": input}
         )
 
     print(json.dumps(output))
