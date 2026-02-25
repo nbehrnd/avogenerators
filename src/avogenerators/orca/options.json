@@ -1,0 +1,211 @@
+[
+  {
+    "tabName": "Basic",
+    "Title": {
+      "type": "string",
+      "default": "",
+      "toolTip": "Title of the input file"
+    },
+    "Processor Cores": {
+      "type": "integer",
+      "default": 1,
+      "minimum": 1
+    },
+    "Memory": {
+      "type": "integer",
+      "default": 16,
+      "minimum": 1
+    },
+    "Calculation Type": {
+      "type": "stringList",
+      "default": 1,
+      "values": [
+        "Single Point",
+        "Geometry Optimization",
+        "Frequencies",
+        "Transition State",
+        "Dynamics"
+      ],
+      "toolTip": "Type of calculation to perform"
+    },
+    "Print Molecular Orbitals": {
+      "type": "boolean",
+      "default": true
+    },
+    "Use Symmetry": {
+      "type": "boolean",
+      "default": false
+    },
+    "Constrain Geometry": {
+      "type": "boolean",
+      "default": false,
+      "toolTip": "Use constrained geometry optimization"
+    },
+    "Theory": {
+      "type": "stringList",
+      "default": 7,
+      "values": [
+        "HF",
+        "MP2",
+        "CCSD",
+        "CCSD(T)",
+        "BLYP",
+        "PBE",
+        "PBE0",
+        "revPBE",
+        "B3LYP",
+        "B97-3C",
+        "M06L",
+        "M062X",
+        "wB97X-D3"
+      ]
+    },
+    "RI Approximation": {
+      "type": "stringList",
+      "default": 0,
+      "values": [
+        "None",
+        "NORI",
+        "RIJK",
+        "RIJONX",
+        "RIJCOSX"
+      ]
+    },
+    "Dispersion Correction": {
+      "type": "stringList",
+      "default": 0,
+      "values": [
+        "None",
+        "D3ZERO",
+        "D3BJ",
+        "D4"
+      ],
+      "toolTip": "Any added dispersion corrections",
+      "hide": true
+    },
+    "Basis": {
+      "type": "stringList",
+      "default": 8,
+      "values": [
+        "6-31G(d)",
+        "cc-pVDZ",
+        "cc-pVTZ",
+        "cc-pVQZ",
+        "aug-cc-pVDZ",
+        "aug-cc-pVTZ",
+        "aug-cc-pVQZ",
+        "def2-SVP",
+        "def2-TZVP",
+        "def2-QZVP",
+        "def2-TZVPP",
+        "def2-QZVPP",
+        "def2-TZVPPD",
+        "def2-QZVPPD",
+        "ma-def2-SVP",
+        "ma-def2-TZVP",
+        "ma-def2-QZVP"
+      ],
+      "toolTip": "Gaussian basis set"
+    },
+    "Solvent": {
+      "type": "stringList",
+      "default": 0,
+      "values": [
+        "None (gas)",
+        "-",
+        "Water",
+        "Acetonitrile",
+        "Acetone",
+        "Ethanol",
+        "Methanol",
+        "CCl4",
+        "CH2Cl2",
+        "Chloroform",
+        "DMSO",
+        "DMF",
+        "Hexane",
+        "Toluene",
+        "Pyridine",
+        "THF",
+        "Toluene"
+      ],
+      "toolTip": "Solvent"
+    },
+    "Solvation Model": {
+      "type": "stringList",
+      "default": 0,
+      "values": [
+        "CPCM",
+        "SMD"
+      ],
+      "toolTip": "Solvation Method"
+    },
+    "Filename Base": {
+      "type": "string",
+      "default": "job"
+    },
+    "Charge": {
+      "type": "integer",
+      "default": 0,
+      "minimum": -9,
+      "maximum": 9,
+      "toolTip": "Total charge of the system"
+    },
+    "Multiplicity": {
+      "type": "integer",
+      "default": 1,
+      "minimum": 1,
+      "maximum": 6,
+      "toolTip": "Total spin multiplicity of the system"
+    }
+  },
+  {
+    "tabName": "Dynamics",
+    "AIMD TimeStep": {
+      "type": "string",
+      "default": "0.5_fs"
+    },
+    "AIMD Initvel": {
+      "type": "string",
+      "default": "350"
+    },
+    "AIMD Thermostat Temp": {
+      "type": "integer",
+      "default": 300,
+      "maximum": 1000,
+      "minimum": 0
+    },
+    "AIMD Thermostat Time": {
+      "type": "string",
+      "default": "10_fs"
+    },
+    "AIMD RunTime": {
+      "type": "integer",
+      "default": 200
+    }
+  },
+  {
+    "tabName": "Excited States",
+    "Excited State Method": {
+      "type": "stringList",
+      "default": 0,
+      "values": [
+        "None",
+        "CIS",
+        "CIS(D)",
+        "TDDFT",
+        "EOM-CCSD"
+      ]
+    },
+    "Number of States": {
+      "type": "integer",
+      "default": 3,
+      "minimum": 1
+    },
+    "Target State": {
+      "type": "integer",
+      "default": 1,
+      "minimum": 1
+    }
+  }
+]

@@ -1,6 +1,6 @@
-{
-  "tabbed": true,
-  "Standard": {
+[
+  {
+    "tabName": "Standard",
     "Title": {
       "type": "string",
       "default": ""
@@ -97,7 +97,8 @@
       "default": true
     }
   },
-  "Alternate": {
+  {
+    "tabName": "Alternate",
     "Alternate Theory": {
       "type": "string",
       "default": ""
@@ -107,4 +108,4 @@
       "default": ""
     }
   }
-}
+]
