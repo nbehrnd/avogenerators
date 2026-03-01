@@ -601,6 +601,18 @@
               "regexp": "\\\\bPULAY\\\\b"
             },
             {
+              "regexp": "\\\\bQMM\\\\b"
+            },
+            {
+              "regexp": "\\\\bQPMEP\\\\b"
+            },
+            {
+              "regexp": "\\\\bQUARTET\\\\b"
+            },
+            {
+              "regexp": "\\\\QUINTET\\\\b"
+            },
+            {
               "regexp": "\\\\bPM3\\\\b"
             }
           ],
