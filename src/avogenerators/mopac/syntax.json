@@ -811,7 +811,10 @@
               "regexp": "\\\\bXYZ\\\\b"
             },
             {
-              "regexp": "\\\\bPM3\\\\b"
+              "regexp": "\\\\bZ\\\\b"
+            },
+            {
+              "regexp": "\\\\bZERO\\\\b"
             }
           ],
           "format": {
