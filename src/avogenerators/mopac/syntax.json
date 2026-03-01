@@ -322,6 +322,12 @@
               "regexp": "\\\\bIUPD\\\\b"
             },
             {
+              "regexp": "\\\\bKINETIC\\\\b"
+            },
+            {
+              "regexp": "\\\\bKING\\\\b"
+            },
+            {
               "regexp": "\\\\bPM3\\\\b"
             }
           ],
