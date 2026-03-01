@@ -802,6 +802,15 @@
               "regexp": "\\\\bWILLIAMS\\\\b"
             },
             {
+              "regexp": "\\\\bX-PRIORITY\\\\b"
+            },
+            {
+              "regexp": "\\\\bXENO\\\\b"
+            },
+            {
+              "regexp": "\\\\bXYZ\\\\b"
+            },
+            {
               "regexp": "\\\\bPM3\\\\b"
             }
           ],
