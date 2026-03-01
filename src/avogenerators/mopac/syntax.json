@@ -502,6 +502,105 @@
               "regexp": "\\\\bOUTPUT\\\\b"
             },
             {
+              "regexp": "\\\\bP\\\\b"
+            },
+            {
+              "regexp": "\\\\bPDB\\\\b"
+            },
+            {
+              "regexp": "\\\\bPDBOUT\\\\b"
+            },
+            {
+              "regexp": "\\\\bPECI\\\\b"
+            },
+            {
+              "regexp": "\\\\bPI\\\\b"
+            },
+            {
+              "regexp": "\\\\bpKa\\\\b"
+            },
+            {
+              "regexp": "\\\\bPL\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM3\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM6\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM6-D3\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM6-DH+\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM6-DH2\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM6-DH2X\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM6-D3H4\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM6-D3H4X\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM6-ORG\\\\b"
+            },
+            {
+              "regexp": "\\\\bPMEP\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM7\\\\b"
+            },
+            {
+              "regexp": "\\\\bPM7-TS\\\\b"
+            },
+            {
+              "regexp": "\\\\bPMEPR\\\\b"
+            },
+            {
+              "regexp": "\\\\bPOINT\\\\b"
+            },
+            {
+              "regexp": "\\\\bPOINT1\\\\b"
+            },
+            {
+              "regexp": "\\\\bPOINT2\\\\b"
+            },
+            {
+              "regexp": "\\\\bPOLAR\\\\b"
+            },
+            {
+              "regexp": "\\\\bPOTWRT\\\\b"
+            },
+            {
+              "regexp": "\\\\bPOWSQ\\\\b"
+            },
+            {
+              "regexp": "\\\\bPRESSURE\\\\b"
+            },
+            {
+              "regexp": "\\\\bPRNT\\\\b"
+            },
+            {
+              "regexp": "\\\\bPRTCHAR\\\\b"
+            },
+            {
+              "regexp": "\\\\bPRTINT\\\\b"
+            },
+            {
+              "regexp": "\\\\bPRTMEP\\\\b"
+            },
+            {
+              "regexp": "\\\\bPRTXYZ\\\\b"
+            },
+            {
+              "regexp": "\\\\bPULAY\\\\b"
+            },
+            {
               "regexp": "\\\\bPM3\\\\b"
             }
           ],
