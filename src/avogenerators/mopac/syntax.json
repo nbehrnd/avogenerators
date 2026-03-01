@@ -815,6 +815,15 @@
             },
             {
               "regexp": "\\\\bZERO\\\\b"
+            },
+            {
+              "regexp": "\\\\0SCF&\\\\b"
+            },
+            {
+              "regexp": "\\\\b1ELECTRON\\\\b"
+            },
+            {
+              "regexp": "\\\\b1SCF\\\\b"
             }
           ],
           "format": {
