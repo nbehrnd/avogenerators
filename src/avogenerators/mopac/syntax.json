@@ -661,6 +661,96 @@
               "regexp": "\\\\bRSOLV\\\\b"
             },
             {
+              "regexp": "\\\\bSADDLE\\\\b"
+            },
+            {
+              "regexp": "\\\\bSCALE\\\\b"
+            },
+            {
+              "regexp": "\\\\bSCFCRT\\\\b"
+            },
+            {
+              "regexp": "\\\\bSCINCR\\\\b"
+            },
+            {
+              "regexp": "\\\\bSEPTET\\\\b"
+            },
+            {
+              "regexp": "\\\\bSETPI\\\\b"
+            },
+            {
+              "regexp": "\\\\bSETUP\\\\b"
+            },
+            {
+              "regexp": "\\\\bSEXTET\\\\b"
+            },
+            {
+              "regexp": "\\\\bSHIFT\\\\b"
+            },
+            {
+              "regexp": "\\\\bSHUT\\\\b"
+            },
+            {
+              "regexp": "\\\\SIGMA\\\\b"
+            },
+            {
+              "regexp": "\\\\bSINGLET\\\\b"
+            },
+            {
+              "regexp": "\\\\bSITE\\\\b"
+            },
+            {
+              "regexp": "\\\\bSLOG\\\\b"
+            },
+            {
+              "regexp": "\\\\bSLOPE\\\\b"
+            },
+            {
+              "regexp": "\\\\bSMOOTH\\\\b"
+            },
+            {
+              "regexp": "\\\\bSNAP\\\\b"
+            },
+            {
+              "regexp": "\\\\bSPARKLE\\\\b"
+            },
+            {
+              "regexp": "\\\\bSPIN\\\\b"
+            },
+            {
+              "regexp": "\\\\bSTART_RES\\\\b"
+            },
+            {
+              "regexp": "\\\\bSTATIC\\\\b"
+            },
+            {
+              "regexp": "\\\\bSTEP\\\\b"
+            },
+            {
+              "regexp": "\\\\bSTEP1\\\\b"
+            },
+            {
+              "regexp": "\\\\bSTEP2\\\\b"
+            },
+            {
+              "regexp": "\\\\bSTO3G\\\\b"
+            },
+            {
+              "regexp": "\\\\bSUPER\\\\b"
+            },
+            {
+              "regexp": "\\\\bSYMAVG\\\\b"
+            },
+            {
+              "regexp": "\\\\bSYMOIR\\\\b"
+            },
+            {
+              "regexp": "\\\\bSYMTRZ\\\\b"
+            },
+            {
+              "regexp": "\\\\bSYMMETRY\\\\b"
+            },
+            {
               "regexp": "\\\\bPM3\\\\b"
             }
           ],
