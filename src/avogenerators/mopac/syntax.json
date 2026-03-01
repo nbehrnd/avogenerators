@@ -613,6 +613,54 @@
               "regexp": "\\\\QUINTET\\\\b"
             },
             {
+              "regexp": "\\\\bRABBIT\\\\b"
+            },
+            {
+              "regexp": "\\\\bRAMA\\\\b"
+            },
+            {
+              "regexp": "\\\\bRAPID\\\\b"
+            },
+            {
+              "regexp": "\\\\bRECALC\\\\b"
+            },
+            {
+              "regexp": "\\\\bRE-LOCAL\\\\b"
+            },
+            {
+              "regexp": "\\\\bRELSCF\\\\b"
+            },
+            {
+              "regexp": "\\\\bREORTHOG\\\\b"
+            },
+            {
+              "regexp": "\\\\bRESEQ\\\\b"
+            },
+            {
+              "regexp": "\\\\bRESIDUES\\\\b"
+            },
+            {
+              "regexp": "\\\\bRESTART\\\\b"
+            },
+            {
+              "regexp": "\\\\bRHF\\\\b"
+            },
+            {
+              "regexp": "\\\\bRMAX\\\\b"
+            },
+            {
+              "regexp": "\\\\bRMIN\\\\b"
+            },
+            {
+              "regexp": "\\\\bROOT\\\\b"
+            },
+            {
+              "regexp": "\\\\bRSCAL\\\\b"
+            },
+            {
+              "regexp": "\\\\bRSOLV\\\\b"
+            },
+            {
               "regexp": "\\\\bPM3\\\\b"
             }
           ],
