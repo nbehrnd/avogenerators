@@ -751,6 +751,33 @@
               "regexp": "\\\\bSYMMETRY\\\\b"
             },
             {
+              "regexp": "\\\\bT\\\\b"
+            },
+            {
+              "regexp": "\\\\bTDIP\\\\b"
+            },
+            {
+              "regexp": "\\\\bTHERMO\\\\b"
+            },
+            {
+              "regexp": "\\\\bTHREADS\\\\b"
+            },
+            {
+              "regexp": "\\\\bTIMES\\\\b"
+            },
+            {
+              "regexp": "\\\\bT-PRIORITY\\\\b"
+            },
+            {
+              "regexp": "\\\\bTRANS\\\\b"
+            },
+            {
+              "regexp": "\\\\bTRIPLET\\\\b"
+            },
+            {
+              "regexp": "\\\\bTS\\\\b"
+            },
+            {
               "regexp": "\\\\bPM3\\\\b"
             }
           ],
