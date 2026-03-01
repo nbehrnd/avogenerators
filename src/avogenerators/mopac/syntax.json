@@ -295,6 +295,33 @@
               "regexp": "\\\\bHYPERFINE\\\\b"
             },
             {
+              "regexp": "\\\\bINDO\\\\b"
+            },
+            {
+              "regexp": "\\\\bINT\\\\b"
+            },
+            {
+              "regexp": "\\\\bINVERT\\\\b"
+            },
+            {
+              "regexp": "\\\\bIONIZE\\\\b"
+            },
+            {
+              "regexp": "\\\\bIRC\\\\b"
+            },
+            {
+              "regexp": "\\\\bISOTOPE\\\\b"
+            },
+            {
+              "regexp": "\\\\bITER\\\\b"
+            },
+            {
+              "regexp": "\\\\bITRY\\\\b"
+            },
+            {
+              "regexp": "\\\\bIUPD\\\\b"
+            },
+            {
               "regexp": "\\\\bPM3\\\\b"
             }
           ],
