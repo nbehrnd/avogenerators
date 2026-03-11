@@ -1,5 +1,5 @@
 [project]
-name = "avogenerators"
+name = "avogadro-generators"
 version = "2.0.0"
 authors =  [
     { name = "Allison Vacanti", email = "allison.vacanti@kitware.com" },
@@ -20,7 +20,7 @@ description = "Scripts for generating input files for computational chemistry pa
 readme = "README.md"
 
 [project.scripts]
-avogadro-avogenerators = "avogenerators:main"
+avogadro-generators = "avogadro_generators:main"
 
 [build-system]
 requires = ["uv_build>=0.10.2,<0.11.0"]
@@ -35,7 +35,7 @@ program-name = "Dalton"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/dalton/options.json"
+user-options = "src/avogadro_generators/dalton/options.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "gamessuk"
@@ -43,7 +43,7 @@ program-name = "GAMESS-UK"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/gamessuk/options.json"
+user-options = "src/avogadro_generators/gamessuk/options.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "gaussian"
@@ -51,7 +51,7 @@ program-name = "Gaussian"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/gaussian/options.json"
+user-options = "src/avogadro_generators/gaussian/options.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "molpro"
@@ -59,7 +59,7 @@ program-name = "MOLPRO"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/molpro/options.json"
+user-options = "src/avogadro_generators/molpro/options.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "mopac"
@@ -67,7 +67,7 @@ program-name = "MOPAC"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/mopac/options.json"
+user-options = "src/avogadro_generators/mopac/options.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "nwchem"
@@ -75,8 +75,8 @@ program-name = "NWChem"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/nwchem/options.json"
-highlight-styles = "src/avogenerators/nwchem/syntax.toml"
+user-options = "src/avogadro_generators/nwchem/options.json"
+highlight-styles = "src/avogadro_generators/nwchem/syntax.toml"
 
 [[tool.avogadro.input-generators]]
 identifier = "orca"
@@ -84,7 +84,7 @@ program-name = "ORCA"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/orca/options.json"
+user-options = "src/avogadro_generators/orca/options.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "psi4"
@@ -92,7 +92,7 @@ program-name = "Psi"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/psi4/options.json"
+user-options = "src/avogadro_generators/psi4/options.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "pyscf"
@@ -100,7 +100,7 @@ program-name = "PySCF"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/pyscf/options.json"
+user-options = "src/avogadro_generators/pyscf/options.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "qchem"
@@ -108,7 +108,7 @@ program-name = "Q-Chem"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/qchem/options.json"
+user-options = "src/avogadro_generators/qchem/options.json"
 
 [[tool.avogadro.input-generators]]
 identifier = "terachem"
@@ -116,13 +116,13 @@ program-name = "TeraChem"
 input-format = "cjson"
 support.molecular = true
 support.periodic = false
-user-options = "src/avogenerators/terachem/options.json"
+user-options = "src/avogadro_generators/terachem/options.json"
 
 [tool.pixi.workspace]
 channels = ["conda-forge"]
 platforms = ["win-64", "win-arm64", "linux-64", "linux-aarch64", "osx-64", "osx-arm64"]
 
 [tool.pixi.pypi-dependencies]
-avogenerators = { path = ".", editable = true }
+avogadro_generators = { path = ".", editable = true }
 
 [tool.pixi.tasks]
