@@ -1,5 +1,5 @@
 [[default.rules]]
-format.preset = "literal"
+format.preset = "num_literal"
 patterns = [
     { regexp = '\b[+-]?[.0-9]+(?:[eEdD][+-]?[.0-9]+)?\b' },
 ]
